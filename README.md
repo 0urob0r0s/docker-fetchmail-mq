@@ -24,7 +24,7 @@ Only POP3 supported at this time, fully tested with gmail.com services.
 version: '2'
 services:
   Fetchmail:
-    image: docker-fetchmail:latest
+    image: docker-fetchmail-mq:latest
     environment:
       FETCH_USERS: firstuser@mailserver.com seconduser@mailserver.com
       FETCH_PASS: firstpassword secondpassword
