@@ -1,0 +1,11 @@
+service healthcheck
+{
+  socket_type = stream
+  flags = REUSE
+  protocol = tcp
+  wait = no
+  user = root
+  port = 9090
+  server = /root/healthcheck.sh
+  disable = no
+}
