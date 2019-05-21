@@ -30,6 +30,8 @@ services:
       FETCH_PASS: firstpassword secondpassword
       FETCH_QUEUES: firstQueue secondQueue
       FETCH_QUEUES_TYPE: correspond comment
+      FETCH_EX_COR: rt4.correspond
+      FETCH_EX_COM: rt4.comment
       FETCH_SYNC: '10'
       FETCH_TIMEOUT: '10'
       FETCH_POP3_SERVER: pop.gmail.com
