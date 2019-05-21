@@ -29,6 +29,7 @@ services:
       FETCH_USERS: firstuser@mailserver.com seconduser@mailserver.com
       FETCH_PASS: firstpassword secondpassword
       FETCH_QUEUES: firstQueue secondQueue
+      FETCH_QUEUES_TYPE: correspond comment
       FETCH_SYNC: '10'
       FETCH_TIMEOUT: '10'
       FETCH_POP3_SERVER: pop.gmail.com
@@ -74,3 +75,4 @@ FETCH_SYNC = How often Fetchmail will check for new mails (in seconds).
 
 
 **Head over the repo `docker-adv-rt` for a more complex example.**
+
