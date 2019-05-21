@@ -1,4 +1,4 @@
-# Distributable Fetchmail based POP3 to MQ Gateway
+# Distributed Fetchmail based POP3 to MQ Gateway
 
  **Overview**
 
