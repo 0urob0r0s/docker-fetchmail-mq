@@ -68,7 +68,7 @@ services:
 
 **Notes**
 
-FETCH_USERS, FETCH_PASS and FETCH_QUEUES are array variables.
+FETCH_USERS, FETCH_PASS, FETCH_QUEUES and FETCH_QUEUES_TYPE are array variables.
  - Elements are separated by spaces.
  - Elements with space in the name go inside single quotes: 'an element'.
 
